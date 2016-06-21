@@ -1,4 +1,3 @@
-<div ng-controller="StyledTextareaController" class="styled-textarea">
-  <h1>Styled Textarea</h1>
-</div>
-
+<textarea ng-model="model.value" id="{{model.alias}}" name="textarea" rows="{{ model.config.rows || 1 }}" class="umb-editor umb-textarea textstring {{ model.config.class }}" style="{{ model.config.style }}" val-server="value" ng-required="model.validation.mandatory"></textarea>
+<span class="help-inline" val-msg-for="textarea" val-toggle-msg="required">Required</span>
+<span class="help-inline" val-msg-for="textarea" val-toggle-msg="valServer"></span>

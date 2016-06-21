@@ -10,20 +10,31 @@
       "prevalues": {
         "fields": [
           {
-            "description": "This is an example prevalue",
-            "key": "examplePreValue",
-            "label": "Example PreValue",
+            "description": "How many rows do you want your textarea to span",
+            "key": "rows",
+            "label": "Rows",
+            "view": "number"
+          },
+          {
+            "description": "Add classes here",
+            "key": "class",
+            "label": "Class",
             "view": "textstring"
+          },
+          {
+            "description": "Add inline styles here",
+            "key": "style",
+            "label": "Style",
+            "view": "textarea"
           }
         ]
+      },
+      "defaultConfig": {
+        "rows": 1,
+        "class": "",
+        "style": ""
       }
     }
-  ],
-  "css": [
-    "~/App_Plugins/StyledTextarea/css/styled.textarea.css"
-  ],
-  "javascript": [
-    "~/App_Plugins/StyledTextarea/js/styled.textarea.js"
   ]
 }
 
