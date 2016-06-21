@@ -1,0 +1,29 @@
+{
+  "propertyEditors": [
+    {
+      "name": "Styled Textarea",
+      "alias": "StyledTextarea",
+      "editor": {
+        "valueType": "TEXT",
+        "view": "~/App_Plugins/StyledTextarea/views/styled.textarea.html"
+      },
+      "prevalues": {
+        "fields": [
+          {
+            "description": "This is an example prevalue",
+            "key": "examplePreValue",
+            "label": "Example PreValue",
+            "view": "textstring"
+          }
+        ]
+      }
+    }
+  ],
+  "css": [
+    "~/App_Plugins/StyledTextarea/css/styled.textarea.css"
+  ],
+  "javascript": [
+    "~/App_Plugins/StyledTextarea/js/styled.textarea.js"
+  ]
+}
+
